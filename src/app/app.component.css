@@ -1,0 +1,30 @@
+::ng-deep * {
+  margin: 0;
+  padding: 0;
+}
+
+::ng-deep app-root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+::ng-deep router-outlet {
+  flex-grow: 0;
+}
+::ng-deep app-about,
+::ng-deep app-experience,
+::ng-deep app-education,
+::ng-deep app-projects,
+::ng-deep app-skills,
+::ng-deep app-contact {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+app-root {
+  display: flex;
+  flex-flow: column;
+}
