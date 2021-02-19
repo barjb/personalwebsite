@@ -1,0 +1,9 @@
+li {
+  list-style-type: none;
+}
+span {
+  font-weight: bold;
+}
+li:hover {
+  transform: scale(1.1);
+}
